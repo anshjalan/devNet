@@ -11,7 +11,7 @@ const server = http.createServer(app);
 const io = initializeSocket(server);
 app.use(
   cors({
-    origin: ['http://localhost:5173', 'https://dev-net-six.vercel.app/'],
+    origin: ['http://localhost:5173', 'https://dev-net-six.vercel.app'],
     credentials: true,
   })
 );
