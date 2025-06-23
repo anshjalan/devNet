@@ -6,7 +6,7 @@ const User = require("../models/user");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const { uploadImage, upload } = require("../middlewares/fileUpload");
-
+require("dotenv").config();
 authRouter.post(
   "/signup",
   upload.single("profilePic"),
