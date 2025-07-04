@@ -113,7 +113,7 @@ const ChatRoom = () => {
         </div>
         <button
           onClick={() => navigate("/chat")}
-          className="md:hidden p-2 rounded-lg text-xl bg-gray-800 text-white flex items-center gap-2"
+          className="p-2 rounded-lg text-xl bg-gray-800 text-white flex items-center gap-2"
         >
           <IoCaretBackOutline />
         </button>
